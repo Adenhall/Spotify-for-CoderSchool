@@ -1,0 +1,201 @@
+* {
+  color: white;
+}
+body {
+  margin:0;
+}
+nav {
+  height: 60px;
+  background-color: black;
+  display:flex;
+  justify-content: space-between;
+  position: fixed;
+  top:0;
+  z-index:100;
+  width: 100%;
+  padding:10px;
+  opacity: 0.85;
+}
+nav * a {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+  padding-right: 25px;
+}
+nav > div {
+  margin: 20px 60px auto auto;
+}
+section {
+  height: 800px;
+  background-color: orange;
+  position: relative;
+  top:80px;
+  background-image: linear-gradient(red, yellow);
+  background: -webkit-gradient(
+   linear,
+   left top,
+   left bottom,
+   color-stop(-60%, #f037a5),
+   color-stop(140%, #fae62d)
+ );
+}
+
+footer {
+  height: 600px;
+  background-color: black;
+  position: relative;
+  bottom: 0;
+}
+.spotify-logo {
+  width: 132px;
+  height: 41.88px;
+  margin-left: 50px;
+  padding-top: 5px;
+}
+.first-section {
+  background-color: white;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  font-size: 13px;
+}
+section > div > div > h1 >span {
+  font-size: 15px;
+  color: black;
+}
+.second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 0.9;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -0.04em;
+  font-family: sans-serif;
+  position: relative;
+  top: 100px;
+}
+.btn-spotify {
+  border: 0px;
+  width: 260px;
+  color: white;
+  margin: 0 auto;
+  line-height: 0.7;
+  font-size: 14px;
+  margin-top: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 500px;
+  padding: 18px 42px 18px;
+  background-color: #1db954;
+  text-transform: uppercase;
+  transition-duration: 0.3s;
+}
+.btn-spotify:hover {
+  cursor: pointer;
+  background-color: #1ed760;
+}
+.hero-img {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+}
+.container {
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+.column > h1 {
+  color: #919496;
+  font-size: 13.5px;
+}
+
+.column > h1,
+p {
+  margin-bottom: 15px;
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.footer-logo > h1 {
+  color: white;
+  font-size: 2em;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-icons {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons > .fab {
+  margin: 15px;
+}
+
+.footer-icons > .fab:hover {
+  color: green;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+}
+
+.container > .left {
+  flex: 1;
+  justify-content: space-between;
+}
+.container > .right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fab {
+  font-size: 50px;
+}
+
+a:hover {
+  color: green;
+}
+
+.column > p:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.left > p:hover {
+  color: green;
+}
+.column {
+  padding: 50px;
+}
+.lastfooter {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+.lastfooter * a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin: 5px;
+}
+.legal {
+  padding-bottom: 50px ;
+  padding-right: 50px;
+}
